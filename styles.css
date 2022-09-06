@@ -63,9 +63,21 @@ a{
 }
 
 /* home  */
-h1{
+h1, p{
     color: #fff;
 }
 
 
+.home{
+    background-image: url("RECURSOS/Fondo\ programación.jpg");
+    height: 45vw;
+}
 
+.home__img{
+    max-width: 500px;
+}
+
+.about{
+    background-image: url("RECURSOS/Programador\ 1.jpeg");
+    height: 45vw;
+}
