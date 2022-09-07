@@ -6,6 +6,7 @@
 }
 body{
     font-family: sans-serif;
+
 }
 
 @font-face{
@@ -29,13 +30,13 @@ header{
     justify-content: space-between;
 }
 
+
 nav{
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 5px;
     display: flex;
     align-items:flex-end;
-    
     background-color: #1fbac0;
     color: #fff;
     justify-content: space-between;
@@ -43,6 +44,9 @@ nav{
     -webkit-box-shadow:  0 2px 4px black;
    -moz-box-shadow:  0 2px 4px black;
         box-shadow: inset  0 2px 4px black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav>a{
@@ -130,9 +134,7 @@ h1, p{
     bottom: 0;
     left: 0;
     right: 0;
-    -webkit-box-shadow:  0 2px 25px black;
-   -moz-box-shadow:  0 2px 25px black;
-        box-shadow: inset  0 2px 25px black;
+    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
 }
 
 .home__img{
@@ -143,7 +145,7 @@ h1, p{
     border-radius: 100%;
     right: 138px;
     z-index: 50;
-
+    box-shadow: 20px 5px 0px 5px black;
 }
 
 .nom_font{
