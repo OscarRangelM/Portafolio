@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    border: 1px solid lightgreen;
 }
 
 @font-face{
     font-family: Optimistic Signature;
-    src: url("RECURSOS/Tipografias/Optimistic/Optimistic\ Signature.ttf")
+    src: url("RECURSOS/Tipografias/Optimistic/Optimistic\ Signature.ttf");
 }
 @font-face {
     font-family: barcade;
@@ -22,23 +23,24 @@
 
 header{
     background-color: #1fbac0;
-
 }
 
 .header__section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
-              0 2px 2px rgba(0,0,0,0.20), 
-              0 4px 4px rgba(0,0,0,0.15);
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    background-color: #1fbac0;
     color: #fff;
-    margin-top: 20px;
-    text-align: center;
-    height: 44px;
+    justify-content: center;
+    height: 62px;
+    -webkit-box-shadow:  0 2px 4px black;
+   -moz-box-shadow:  0 2px 4px black;
+        box-shadow: inset  0 2px 4px black;     
 }
 
 nav>a{
@@ -56,24 +58,22 @@ nav>a{
 .header__section-div-img{
     color: white;
     border: 1px solid black;
-    margin-left: -60px;
-    max-height: 100px;
-    max-width: 250px;
-    
+    max-height: 65px;
 }
 
 .header__section-div-h1{
     margin-left: 25px;
-    font-size: 120px;
+    font-size: 110px;
     font-family: barcade;
     
 }
 
 .header__section-btn{
+    font-size: 31px;
     width: 256px;
     height: 64px;
     margin-right: 25px;
-    background-color: #9cee8d;
+    background-color: #66EF87;
     color: #fff;
     border-radius: 2px;
     border: none;
@@ -82,13 +82,11 @@ nav>a{
               0 8px 4px rgba(0,0,0,0.09), 
               0 16px 8px rgba(0,0,0,0.09),
               0 32px 16px rgba(0,0,0,0.09);
-    /* padding: 10px; */
 }
 
 a{
     text-decoration: none;
     color: #fff;
-    /* font-weight: bold; */
     font-size: large;
     padding-left: 20px;
 }
@@ -111,4 +109,10 @@ h1, p{
 .about{
     background-image: url("RECURSOS/Programador\ 1.jpeg");
     height: 45vw;
+}
+
+/* skills */
+
+.skills{
+    background-color: #1B354E;
 }
