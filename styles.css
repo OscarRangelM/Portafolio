@@ -40,9 +40,7 @@ nav{
     background-color: #1fbac0;
     color: #fff;
     flex-wrap: wrap;
-
     justify-content: space-around;
-
     min-height: 52px;
     -webkit-box-shadow:  0 2px 4px black;
    -moz-box-shadow:  0 2px 4px black;
