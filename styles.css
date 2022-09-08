@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
     border: 1px solid lightgreen;
+    color: #fff;
 }
 
 @font-face{
@@ -95,11 +96,6 @@ header{
 }
 
 /* home  */
-h1, p{
-    color: #fff;
-}
-
-
 .home{
     background-image: url("RECURSOS/Fondo\ programación.jpg");
     background-size: cover;
@@ -110,23 +106,36 @@ h1, p{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* top: 100px; */
-
-    
 }
 
 .home::before{
     content: '';
     position: absolute;
     background-color: #1B354E;
-    /* background-color: #fff; */
     opacity: 0.93;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
+}
+
+.home__fname{
+    text-shadow: 3px 1px black;
+    z-index: 100;
+    font-size: 64px;
+    position: absolute;
+    top: 240px;
+    left: 350px;
+}
+
+.home__lname{
+    font-family: Optimistic Signature;
+    font-size: 160px;
+    text-shadow: 3px 1px black;
+    z-index: 100;
+    position: absolute;
+    left: 72px;
 }
 
 .home__img{
@@ -139,49 +148,59 @@ h1, p{
     box-shadow: 15px 5px 20px 5px black;
 }
 
-.nom_font{
-    font-family: Optimistic Signature;
-    font-size: 160px;
-    text-shadow: 3px 1px black;
-    z-index: 100;
-    position: absolute;
-    left: 72px;
-}
-
-.fname{
-    text-shadow: 3px 1px black;
-    z-index: 100;
-    font-size: 64px;
-    position: absolute;
-    top: 240px;
-    left: 350px;
-}
-
 /* About  */
-
 .about{
+    display:flex ;
     background-image: url("RECURSOS/Programador\ 1.jpeg");
+    background-attachment: fixed;
     height: 100vh;
     background-size: cover;
     position: relative;
-
-}
-
-.descrip{
-    position: absolute;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .about::before{
     content: '';
     position: absolute;
     background-color: #1B354E;
-   
     opacity: 0.93;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    
+}
+
+.about__description{
+    margin-top: 53px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: justify;
+    position: relative;
+    width: 50vw;
+    height: 80vh;
+}
+
+.about__description-title{
+    font-size: 77px;
+}
+
+.about__description-info{
+    font-size: 35px;
+}
+
+.about__border{
+    border: 39px solid #66EF87;
+    position: relative;
+    height: 65vh;
+    position: relative;
+    width: 32vw;
+    background-image: url("RECURSOS/biopic.png");
+    background-size: cover;
+}
+
+.about__border-content{
+    visibility: hidden;
 }
 
 /* skills */
