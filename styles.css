@@ -173,6 +173,11 @@ h1, p{
     height: 100vh;
     background-size: cover;
     position: relative;
+
+}
+
+.descrip{
+    position: absolute;
 }
 
 .about::before{
