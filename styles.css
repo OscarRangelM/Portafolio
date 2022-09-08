@@ -207,18 +207,30 @@ header{
 
 .skills{
     background-color: #1B354E;
+    height: 100vh;
 }
 
 /* SERVICES */
 
-
+.services{
+    height: 100vh;
+}
 
 /* PORTFOLIO */
 
-
+.portfolio{
+    height: 100vh;
+}
 
 /* CONTACT */
 
-
+.contact{
+    height: 100vh;
+}
 
 /* Footer */
+
+.footer{
+    padding-top: 65px;
+    height: 100vh;
+}
