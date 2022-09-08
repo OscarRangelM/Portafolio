@@ -4,10 +4,6 @@
     font-family: sans-serif;
     border: 1px solid lightgreen;
 }
-body{
-    font-family: sans-serif;
-
-}
 
 @font-face{
     font-family: Optimistic Signature;
@@ -30,8 +26,42 @@ header{
     justify-content: space-between;
 }
 
+.header__section-div{
+    height: 142PX;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin-left: 90px;
+}
 
-nav{
+.header__section-div-h1{
+    margin-left: 25px;
+    font-size: 110px;
+    font-family: barcade;
+}
+
+.header__section-div-img{
+    color: white;
+    max-height: 65px;
+}
+
+.header__section-div1-btn{
+    font-size: 31px;
+    width: 256px;
+    height: 64px;
+    margin-right: 25px;
+    background-color: #66EF87;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
+              0 4px 2px rgba(0,0,0,0.09), 
+              0 8px 4px rgba(0,0,0,0.09), 
+              0 16px 8px rgba(0,0,0,0.09),
+              0 32px 16px rgba(0,0,0,0.09);
+}
+
+.varNav{
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 5px;
@@ -50,57 +80,18 @@ nav{
     z-index: 1000;
 }
 
-nav>a{
+.varNav>a{
     padding: 0px;
     font-size: 33px;
-}
-
-nav>a:hover{
-    border-bottom: 8px solid #66EF87;
-    border-radius: 2px;
-}
-
-.header__section-div{
-    height: 142PX;
-    align-items: center;
-    display: flex;
-    padding: 0;
-    margin-left: 90px;
-}
-
-.header__section-div-img{
-    color: white;
-    max-height: 65px;
-}
-
-.header__section-div-h1{
-    margin-left: 25px;
-    font-size: 110px;
-    font-family: barcade;
-    
-}
-
-.header__section-btn{
-    font-size: 31px;
-    width: 256px;
-    height: 64px;
-    margin-right: 25px;
-    background-color: #66EF87;
-    color: #fff;
-    border-radius: 2px;
-    border: none;
-    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
-              0 4px 2px rgba(0,0,0,0.09), 
-              0 8px 4px rgba(0,0,0,0.09), 
-              0 16px 8px rgba(0,0,0,0.09),
-              0 32px 16px rgba(0,0,0,0.09);
-}
-
-a{
     text-decoration: none;
     color: #fff;
-    font-size: large;
-    padding-left: 20px;
+}
+
+.varNav>a:hover{
+    text-decoration: underline 6px #66EF87;
+    border-bottom: 8px solid transparent;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
 /* home  */
@@ -184,15 +175,13 @@ h1, p{
     content: '';
     position: absolute;
     background-color: #1B354E;
-    /* background-color: #fff; */
+   
     opacity: 0.93;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    /* -webkit-box-shadow:  0 2px 25px black;
-   -moz-box-shadow:  0 2px 25px black;
-        box-shadow: inset  0 2px 25px black; */
+    
 }
 
 /* skills */
@@ -200,3 +189,17 @@ h1, p{
 .skills{
     background-color: #1B354E;
 }
+
+/* SERVICES */
+
+
+
+/* PORTFOLIO */
+
+
+
+/* CONTACT */
+
+
+
+/* Footer */
