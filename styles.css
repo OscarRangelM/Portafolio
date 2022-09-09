@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    border: 1px solid lightgreen;
+    /* border: 1px solid lightgreen; */
     color: #fff;
 }
 
@@ -169,6 +169,7 @@ header{
     bottom: 0;
     left: 0;
     right: 0;
+    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
 }
 
 .about__description{
@@ -183,14 +184,19 @@ header{
 
 .about__description-title{
     font-size: 77px;
+    padding-left: 45px;
 }
 
 .about__description-info{
     font-size: 35px;
+    padding-right: 20px;
+    padding-left: 45px;
 }
 
 .about__border{
+    display: flex;
     border: 39px solid #66EF87;
+    /* align-items: center; */
     position: relative;
     height: 65vh;
     position: relative;
@@ -201,6 +207,16 @@ header{
 
 .about__border-content{
     visibility: hidden;
+}
+
+.about__border-nomimg{
+    font-family: Optimistic Signature;
+    font-size: 40px;
+    font-weight: lighter;
+    position: relative;
+    top: 72vh;
+    left: 5vw;
+    height: 50px;
 }
 
 /* skills */
