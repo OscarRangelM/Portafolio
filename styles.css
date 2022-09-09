@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    /* border: 1px solid lightgreen; */
+    border: 1px solid lightgreen;
     color: #fff;
 }
 
@@ -224,24 +224,105 @@ header{
 .skills{
     background-color: #1B354E;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.skills::before{
+    content: '';
+    position: absolute;
+    background-color: #1B354E;
+    opacity: 0.93;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
+}
+
+.skills__title, .skills__div{
+    position: relative;
+}
+
+.skills__title{
+    font-size: 70px;
+    display: block ;
+    width: 90vw;
+    margin-left: 160px;
+}
+
+.skills__div-links>img{
+    height: 300px;
+    margin-top: 30px;
 }
 
 /* SERVICES */
 
 .services{
     height: 100vh;
+    position: relative;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.services::before{
+    content: '';
+    position: absolute;
+    background-color: #1B354E;
+    opacity: 0.93;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
 }
 
 /* PORTFOLIO */
 
 .portfolio{
     height: 100vh;
+    position: relative;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.portfolio::before{
+    content: '';
+    position: absolute;
+    background-color: #1B354E;
+    opacity: 0.93;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
 }
 
 /* CONTACT */
 
 .contact{
     height: 100vh;
+    position: relative;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.contact::before{
+    content: '';
+    position: absolute;
+    background-color: #1B354E;
+    opacity: 0.93;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
 }
 
 /* Footer */
@@ -249,4 +330,19 @@ header{
 .footer{
     padding-top: 65px;
     height: 100vh;
+    position: relative;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footer::before{
+    content: '';
+    position: absolute;
+    background-color: #1B354E;
+    opacity: 0.93;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
 }
