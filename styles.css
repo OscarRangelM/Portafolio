@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    border: 1px solid lightgreen;
+    /* border: 1px solid lightgreen; */
     color: #fff;
 }
 
@@ -252,13 +252,35 @@ header{
 
 .skills__title{
     font-size: 70px;
-    display: block ;
-    width: 90vw;
-    margin-left: 160px;
+    font-weight: lighter;
+    width: 80vw;
+    /* margin-left: 100px; */
+}
+
+.skills__div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.skills__div-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    text-decoration:none;
+    font-size: 2.3em;
+}
+
+.skills__div>a:hover{
+    text-decoration: underline 6px #66EF87;
+    
 }
 
 .skills__div-links>img{
-    height: 300px;
+    height: 30vh;
     margin-top: 30px;
 }
 
