@@ -6,6 +6,17 @@
     color: #fff;
 }
 
+body::-webkit-scrollbar{
+    background-color: #1B354E;
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(211, 211, 211, 0.308);
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+
 @font-face{
     font-family: Optimistic Signature;
     src: url("RECURSOS/Tipografias/Optimistic/Optimistic\ Signature\ Italic.ttf");
@@ -371,7 +382,7 @@ header{
 }
 
 .portfolio__gallery-link{
-    width: 100vw;
+    width: 90vw;
     height: 7vh;
     border: 1px solid red;
 }
