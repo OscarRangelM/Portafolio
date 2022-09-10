@@ -318,7 +318,6 @@ header{
 .services__title{
     font-size: 70px;
     font-weight: bold;
-
 }
 
 .services__div>div{
@@ -336,8 +335,10 @@ header{
 .portfolio{
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .portfolio::before{
@@ -350,6 +351,29 @@ header{
     left: 0;
     right: 0;
     box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
+}
+
+.portfolio__title, .portfolio__gallery{
+    position: relative;
+}
+
+.portfolio__title{
+    width: 80vw;
+    margin: 10vh;
+}
+
+.portfolio__gallery{
+    width: 100vw;
+    height: 70vh;
+    background-color: #66EF87;
+    display: flex;
+    text-align: center;
+}
+
+.portfolio__gallery-link{
+    width: 100vw;
+    height: 7vh;
+    border: 1px solid red;
 }
 
 /* CONTACT */
