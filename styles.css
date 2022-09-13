@@ -434,7 +434,7 @@ header{
             font-size: 60px;
             font-weight: bold;
         }
-        /* prueba */
+        
         .form__input {
             width: 70vw;
             padding: 7px;
@@ -462,7 +462,6 @@ header{
             resize: none;
         }
 
-        /* submit */
         .contact__form input[type="submit"]{
             width: 52vw;
             background-color: rgb(17, 204, 54);
@@ -487,17 +486,6 @@ header{
             background-color: linear-gradiente(to bottom, #072, #050);
             box-shadow: 0px 0px 0px 0px #000;
         }
-        /* Fin prueba */
-
-        /* .contact__form-submit{
-            width: 40vw;
-            height: 15vh;
-            font-size: 70px;
-            font-weight: bold;
-            background-color: #66EF87;
-            color: #fff;
-            box-shadow: 0px 10px 20px 3px #000;
-        } */
 
 /* Footer */
 
