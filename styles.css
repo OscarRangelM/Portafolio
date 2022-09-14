@@ -68,7 +68,8 @@ header{
 
         .header__section-div1-btn{
             font-size: 31px;
-            width: 256px;
+            width: 25vw;
+            max-width: 256px;
             height: 64px;
             margin-right: 25px;
             background-color: #66EF87;
@@ -83,15 +84,15 @@ header{
         }
 
 .varNav{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 2vw;
+    padding-right: 1vw;
     padding-bottom: 5px;
     display: flex;
     align-items:flex-end;
     background-color: #1fbac0;
     color: #fff;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     min-height: 52px;
     -webkit-box-shadow:  0 2px 4px black;
    -moz-box-shadow:  0 2px 4px black;
@@ -102,7 +103,7 @@ header{
 }
 
     .varNav>a{
-        padding: 0px;
+        padding-right: 2vw;
         font-size: 33px;
         text-decoration: none;
         color: #fff;
@@ -161,6 +162,7 @@ header{
     .home__img{
         position: absolute;
         width: 38vw;
+        max-width: 550px;
         border-radius: 100%;
         right: 138px;
         z-index: 50;
@@ -295,7 +297,8 @@ header{
         }
 
         .skills__div-links>img{
-            height: 30vh;
+            width: 12vw;
+            max-width: 200px;
             margin-top: 30px;
         }
 
@@ -325,6 +328,7 @@ header{
     .services__title, .services__div{
         position: relative;
         width: 80vw;
+        text-transform: uppercase;
     }
 
     .services__title{
@@ -334,17 +338,21 @@ header{
 
     .services__div{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
         .services__div>div{
-            width: 279px;
+            width: 17vw;
+            max-width: 279px;
             text-align: center;
             border-radius: 5px;
         }
 
         .services__div>div>img{
-            width: 278px;
+            width: 16.8vw;
+            max-width: 278px;
+            border-radius: 20px;
         }
 
 /* PORTFOLIO */
