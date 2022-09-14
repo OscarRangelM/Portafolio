@@ -300,6 +300,7 @@ header{
             width: 12vw;
             max-width: 200px;
             margin-top: 30px;
+            filter: drop-shadow(10px 10px 10px #000);
         }
 
 /* SERVICES */
@@ -352,7 +353,12 @@ header{
         .services__div>div>img{
             width: 16.8vw;
             max-width: 278px;
-            border-radius: 20px;
+            border-radius: 10px;
+            box-shadow: 15px 15px 20px 0px #000;
+        }
+
+        .services__div>div>p{
+            padding-top: 20px;
         }
 
 /* PORTFOLIO */
