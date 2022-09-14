@@ -6,6 +6,11 @@
     color: #fff;
 }
 
+body{
+    background-image: url("RECURSOS/patron2.png");
+    background-attachment: fixed;
+}
+
 body::-webkit-scrollbar{
     background-color: #1B354E;
     width: 7px;
@@ -116,7 +121,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    background-color: #1B354E;
+    /* background-color: #1B354E; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -132,7 +137,7 @@ header{
     bottom: 0;
     left: 0;
     right: 0;
-    box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717);
+    /* box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717); */
 }
 
     .home__fname{
@@ -235,7 +240,7 @@ header{
 /* skills */
 
 .skills{
-    background-color: #1B354E;
+    /* background-color: #1B354E; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -345,7 +350,7 @@ header{
 /* PORTFOLIO */
 
 .portfolio{
-    background-color: #1B354E;
+    /* background-color: #1B354E; */
     height: 100vh;
     position: relative;
     display: flex;
@@ -490,7 +495,8 @@ header{
 /* Footer */
 
 .footer{
-    background-color: #1B354E;
+    /* background-color: #1B354E; */
+    /* background-image: url("RECURSOS/patron2.png"); */
     height: 35vh;
     position: relative;
     display: flex;
