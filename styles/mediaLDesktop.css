@@ -1,3 +1,25 @@
-@media only screen and (min-width: 1200px){
-    
+@media only screen and (min-width: 1600px){
+
+    /* HOME */
+    .home__img{
+        position: absolute;
+        width: 38vw;
+        max-width: 600px;
+        border-radius: 100%;
+        right: 9.2vw;
+        z-index: 50;
+        box-shadow: 15px 5px 20px 5px black;
+    }
+
+    /* services */
+    .services__div>div{
+        width: 17vw;
+        max-width: 500px;
+    }
+
+    .services__div>div>img{
+        width: 16.8vw;
+        max-width: 498px;
+    }
+
 }
