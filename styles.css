@@ -217,7 +217,6 @@ header{
     .about__border{
         display: flex;
         border: 39px solid #66EF87;
-        position: relative;
         height: 65vh;
         position: relative;
         width: 48.75vh;
