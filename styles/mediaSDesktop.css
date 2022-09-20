@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px) and (max-width: 1145px){
+@media (max-width: 1145px){
 /* header  */
 .varNav{
     padding-top: 5px;
@@ -7,7 +7,7 @@
     min-height: 45px;
 }
 
-    .varNav>a{
+    .varNav__sections-element>a{
         font-size: 26px;
     }
 
