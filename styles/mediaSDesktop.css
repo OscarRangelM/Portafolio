@@ -45,10 +45,10 @@
         font-size: 55px;
     }
 
-            .portfolio__gallery-card{
+            /* .portfolio__gallery-card{
                 width: 20vw;
                 height: 30vw;
-            }
+            } */
 
             .portfolio__gallery-card .portfolio__gallery-card-text p{ /*baja la posicion del texto y el boton*/
                 margin-bottom: -220px; /*Baja la posicion del texto*/
