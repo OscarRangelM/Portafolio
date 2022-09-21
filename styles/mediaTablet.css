@@ -105,6 +105,7 @@
         }
 
     .about__border{
+        display: none;
         height: 65vh;
         position: relative;
         width: 48.75vh;

@@ -21,9 +21,9 @@ const next= document.querySelector(".next");
 const slider= document.querySelector(".portfolio__gallery-cont");
 
 prev.addEventListener("click",()=>{
-    slider.scrollLeft -=300; //scrollLeft desplza a la izq
+    slider.scrollLeft -=310; //scrollLeft desplza a la izq
 })
 
 next.addEventListener("click",()=>{
-    slider.scrollLeft +=300; //scrollLeft desplza a la izq
+    slider.scrollLeft +=310; //scrollLeft desplza a la izq
 })
