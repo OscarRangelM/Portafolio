@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -38,4 +39,53 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header{
+  height: 20vh;
+  width: 98.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: x-large;
+}
+
+.content{
+  display: flex;
+  padding-top: 5vh;
+  padding: 5vh 5vw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.card{
+  width: 20vw;
+  margin-bottom: 5vh;
+  border: 2px solid grey;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0px black;
+  background-color: #31326f;
+  color: var(--white);
+  font-size: larger;
+}
+
+.card ol li a{
+  color: var(--white);
+  outline: none;
+  text-decoration: none;
+}
+
+
+.footer{
+  display: flex;
+  background-color: var(--black);
+  color: var(--white);
+  height: 10vh;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
 }
