@@ -24,6 +24,8 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-image: url("images/pikb29.jpg");
+  background-size: cover;
 }
 
 p {
@@ -41,18 +43,20 @@ img {
   padding: 0 20px;
 }
 
-.header{
+.header {
   height: 20vh;
   width: 98.9vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--black);
+  background-color: rgb(28, 43, 45, 0.25);
   color: var(--white);
   font-size: x-large;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
-.content{
+.content {
   display: flex;
   padding-top: 5vh;
   padding: 5vh 5vw;
@@ -61,26 +65,35 @@ img {
 
 }
 
-.card{
+.card {
   width: 20vw;
+  min-width: 250px;
   margin-bottom: 5vh;
-  border: 2px solid grey;
+  border: 1px solid grey;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 1px 1px 5px 0px black;
-  background-color: #31326f;
+  background-color: rgb(49, 50, 111, 0.25);
   color: var(--white);
-  font-size: larger;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  font-size: 1.5rem;
 }
 
-.card ol li a{
+.card ol li a {
   color: var(--white);
   outline: none;
   text-decoration: none;
 }
 
+.card ol li a:hover{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: 0 7px;
+}
 
-.footer{
+.footer {
   display: flex;
   background-color: var(--black);
   color: var(--white);
@@ -88,4 +101,10 @@ img {
   justify-content: center;
   align-items: flex-end;
   padding: 10px;
+}
+
+.footer p a{
+  color: var(--white);
+  outline: none;
+  /* text-decoration: none; */
 }
