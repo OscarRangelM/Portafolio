@@ -36,6 +36,45 @@ img {
 
 .container {
   max-width: 900px;
+  height: 100vh;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-div{
+  width: 40rem;
+  padding: 1rem;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  background-color: var(--light-blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.counter-div>*{
+  margin-bottom: 2rem;
+}
+
+.count{
+  font-size: 4rem
+}
+
+.buttons button{
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button.reset{
+  background-color: var(--white);
+  color: var(--black);
 }
