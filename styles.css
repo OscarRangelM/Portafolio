@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     /* border: 1px solid lightgreen; */
     color: #fff;
 }
@@ -48,7 +48,7 @@ header{
     }
 
         .header__section-div{
-            height: 142PX;
+            height: 100px;
             align-items: center;
             display: flex;
             padding: 0;
@@ -57,7 +57,7 @@ header{
 
             .header__section-div-h1{
                 margin-left: 25px;
-                font-size: 110px;
+                font-size: 50px;
                 font-family: barcade;
             }
 
@@ -68,19 +68,21 @@ header{
 
         .header__section-div1-btn{
             font-size: 31px;
-            width: 25vw;
+            width: 5vw;
             max-width: 256px;
-            height: 64px;
+            height: 45px;
             margin-right: 25px;
-            background-color: #66EF87;
+            /* background-color: #66EF87; */
+            background-color: transparent;
             color: #fff;
             border-radius: 2px;
-            border: none;
-            box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
+            /* border: none; */
+            border: 1px solid #66EF87;
+            /* box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
                     0 4px 2px rgba(0,0,0,0.09), 
                     0 8px 4px rgba(0,0,0,0.09), 
                     0 16px 8px rgba(0,0,0,0.09),
-                    0 32px 16px rgba(0,0,0,0.09);
+                    0 32px 16px rgba(0,0,0,0.09); */
         }
 
 .varNav{
@@ -170,6 +172,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
 }
 
 .home::before{
@@ -184,22 +187,32 @@ header{
     /* box-shadow: inset  0px 10px 37px -3px rgba(0, 0, 0, 0.717); */
 }
 
+    .home__p{
+        z-index: 100;
+        font-size: 2vw;
+        border: 1px solid red;
+        text-align: center;
+        position: relative;
+        width: 60vw;
+    }
+
     .home__fname{
         text-shadow: 3px 1px black;
         z-index: 100;
-        font-size: 4.3vw;
-        position: absolute;
-        top: 32vh;
-        left: 25vw;
+        font-size: 2vw;
+        /* position: absolute; */
+        /* top: 32vh; */
+        /* left: 25vw; */
+        font-family: Optimistic Signature;
     }
 
     .home__lname{
         font-family: Optimistic Signature;
-        font-size: 10.666vw;
+        font-size: 5vw;
         text-shadow: 3px 1px black;
         z-index: 100;
-        position: absolute;
-        left: 6vw;
+        /* position: absolute; */
+        /* left: 6vw; */
     }
 
     .home__img{
@@ -215,13 +228,13 @@ header{
 /* About  */
 .about{
     display:flex ;
-    /* background-image: url("RECURSOS/Programador\ 1.jpeg"); */
     background-attachment: fixed;
     height: 100vh;
     background-size: cover;
     position: relative;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
+    border: 1px solid red;
 }
 
 .about::before{
@@ -237,48 +250,22 @@ header{
 }
 
     .about__description{
-        margin-top: 53px;
-        margin-left: 30px;
-        margin-right: 20px;
         text-align: justify;
         position: relative;
         width: 50vw;
-        height: 80vh;
+        border: 1px solid red;
     }
 
         .about__description-title{
-            font-size: 77px;
+            font-size: 50px;
             padding-left: 45px;
         }
 
         .about__description-info{
-            font-size: 35px;
+            font-size: 25px;
             padding-right: 20px;
             padding-left: 45px;
-        }
-
-    .about__border{
-        display: flex;
-        border: 39px solid #66EF87;
-        height: 65vh;
-        position: relative;
-        width: 48.75vh;
-        background-image: url("RECURSOS/biopic.png");
-        background-size: cover;
-    }
-
-        .about__border-content{
-            visibility: hidden;
-        }
-
-        .about__border-nomimg{
-            font-family: Optimistic Signature;
-            font-size: 40px;
-            font-weight: lighter;
-            position: relative;
-            top: 72vh;
-            left: 5vw;
-            height: 50px;
+            /* border: 1px solid red; */
         }
 
 /* skills */
